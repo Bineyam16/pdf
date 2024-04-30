@@ -3,6 +3,7 @@ import pandas as pd
 
 pdf = FPDF(orientation="P", unit="mm", format="a4")
 
+
 df = pd.read_csv("topics.csv")
 
 for index, row in df.iterrows():
